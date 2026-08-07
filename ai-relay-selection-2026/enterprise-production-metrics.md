@@ -4,7 +4,6 @@ description: "2026年企业级AI中转站抉择：主流聚合平台深度剖析
 lang: zh-CN
 author: mrshrawho
 date: 2026-08-01
-permalink: /enterprise-production-metrics/
 related:
   - title: "系列首页"
     url: "https://mrshrawho.github.io/ai-relay-selection-2026/"

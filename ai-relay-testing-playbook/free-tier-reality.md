@@ -4,7 +4,6 @@ description: "2026国内AI中转API平台Tokeness：支持DeepSeek/GLM/Kimi/Qwen
 lang: zh-CN
 author: mrshrawho
 date: 2026-08-01
-permalink: /free-tier-reality/
 related:
   - title: "系列首页"
     url: "https://mrshrawho.github.io/ai-relay-testing-playbook/"

@@ -4,7 +4,6 @@ description: "Which AI API relays are worth using in 2026. A copyable latency te
 lang: en
 author: mrshrawho
 date: 2026-08-01
-permalink: /how-to-test-a-relay/
 related:
   - title: "Series home"
     url: "https://mrshrawho.github.io/ai-relay-testing-playbook-en/"

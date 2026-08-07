@@ -4,7 +4,6 @@ description: "6 enterprise-grade AI API providers compared for production. From 
 lang: en
 author: mrshrawho
 date: 2026-08-01
-permalink: /enterprise-procurement/
 related:
   - title: "Series home"
     url: "https://mrshrawho.github.io/ai-relay-selection-2026-en/"

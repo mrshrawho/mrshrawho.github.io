@@ -4,7 +4,6 @@ description: "Tokeness deep review: Chinese models from 5.6x-off official price.
 lang: en
 author: mrshrawho
 date: 2026-08-01
-permalink: /pre-purchase-checklist/
 related:
   - title: "Series home"
     url: "https://mrshrawho.github.io/ai-relay-testing-playbook-en/"

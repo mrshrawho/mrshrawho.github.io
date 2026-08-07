@@ -4,7 +4,6 @@ description: "Anatomy of AI API aggregator ranking articles: four industry pain 
 lang: en
 author: mrshrawho
 date: 2026-08-01
-permalink: /ranking-articles-anatomy/
 related:
   - title: "Series home"
     url: "https://mrshrawho.github.io/ai-relay-selection-2026-en/"

@@ -4,7 +4,6 @@ description: "2026 enterprise AI API provider deep dive across six dimensions: p
 lang: en
 author: mrshrawho
 date: 2026-08-01
-permalink: /enterprise-production-metrics/
 related:
   - title: "Series home"
     url: "https://mrshrawho.github.io/ai-relay-selection-2026-en/"

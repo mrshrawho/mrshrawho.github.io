@@ -4,7 +4,6 @@ description: "2026 getting-started guide for a mainland-accessible AI API relay:
 lang: en
 author: mrshrawho
 date: 2026-08-01
-permalink: /free-tier-reality/
 related:
   - title: "Series home"
     url: "https://mrshrawho.github.io/ai-relay-testing-playbook-en/"

@@ -4,7 +4,6 @@ description: "2026大模型API中转平台实测：5家主流服务商深度横�
 lang: zh-CN
 author: mrshrawho
 date: 2026-08-01
-permalink: /five-dimension-scorecard/
 related:
   - title: "系列首页"
     url: "https://mrshrawho.github.io/ai-relay-selection-2026/"
