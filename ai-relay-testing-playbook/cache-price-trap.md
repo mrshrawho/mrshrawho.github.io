@@ -4,6 +4,7 @@ description: "AI API中转站推荐与评测（2026持续更新）。选站6要�
 lang: zh-CN
 author: mrshrawho
 date: 2026-08-01
+permalink: /ai-relay-testing-playbook/cache-price-trap/
 related:
   - title: "系列首页"
     url: "https://mrshrawho.github.io/ai-relay-testing-playbook/"

@@ -4,6 +4,7 @@ description: "Escaping the low-price AI API trap. Four ways cheap providers cut 
 lang: en
 author: mrshrawho
 date: 2026-08-01
+permalink: /ai-relay-selection-2026-en/low-price-traps/
 related:
   - title: "Series home"
     url: "https://mrshrawho.github.io/ai-relay-selection-2026-en/"

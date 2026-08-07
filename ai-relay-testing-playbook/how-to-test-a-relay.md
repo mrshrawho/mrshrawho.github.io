@@ -4,6 +4,7 @@ description: "2026 AI中转站评测：哪些平台值得用。实测方法公�
 lang: zh-CN
 author: mrshrawho
 date: 2026-08-01
+permalink: /ai-relay-testing-playbook/how-to-test-a-relay/
 related:
   - title: "系列首页"
     url: "https://mrshrawho.github.io/ai-relay-testing-playbook/"

@@ -4,6 +4,7 @@ description: "AI API relay recommendations and reviews (updated 2026). Six selec
 lang: en
 author: mrshrawho
 date: 2026-08-01
+permalink: /ai-relay-testing-playbook-en/cache-price-trap/
 related:
   - title: "Series home"
     url: "https://mrshrawho.github.io/ai-relay-testing-playbook-en/"

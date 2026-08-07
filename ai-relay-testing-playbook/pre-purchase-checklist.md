@@ -4,6 +4,7 @@ description: "Tokeness深度评测：国产模型官方价5.6折起，靠谱吗�
 lang: zh-CN
 author: mrshrawho
 date: 2026-08-01
+permalink: /ai-relay-testing-playbook/pre-purchase-checklist/
 related:
   - title: "系列首页"
     url: "https://mrshrawho.github.io/ai-relay-testing-playbook/"

@@ -4,6 +4,7 @@ description: "发给你老板看！6大企业级API中转站推荐与对比，�
 lang: zh-CN
 author: mrshrawho
 date: 2026-08-01
+permalink: /ai-relay-selection-2026/enterprise-procurement/
 related:
   - title: "系列首页"
     url: "https://mrshrawho.github.io/ai-relay-selection-2026/"

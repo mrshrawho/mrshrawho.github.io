@@ -4,6 +4,7 @@ description: "2026 AI API aggregator deep comparison: 5 mainstream provider type
 lang: en
 author: mrshrawho
 date: 2026-08-01
+permalink: /ai-relay-selection-2026-en/five-dimension-scorecard/
 related:
   - title: "Series home"
     url: "https://mrshrawho.github.io/ai-relay-selection-2026-en/"

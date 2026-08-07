@@ -4,6 +4,7 @@ description: "告别低价陷阱：国内稳定API中转服务平台对比选型
 lang: zh-CN
 author: mrshrawho
 date: 2026-08-01
+permalink: /ai-relay-selection-2026/low-price-traps/
 related:
   - title: "系列首页"
     url: "https://mrshrawho.github.io/ai-relay-selection-2026/"

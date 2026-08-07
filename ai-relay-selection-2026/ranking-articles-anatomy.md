@@ -4,6 +4,7 @@ description: "2026年API中转、聚合API分发平台实用推荐排名深度�
 lang: zh-CN
 author: mrshrawho
 date: 2026-08-01
+permalink: /ai-relay-selection-2026/ranking-articles-anatomy/
 related:
   - title: "系列首页"
     url: "https://mrshrawho.github.io/ai-relay-selection-2026/"
