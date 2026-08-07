@@ -1,0 +1,11 @@
+title: "AI API 实测指南"
+description: "2026 国产大模型 API 接入与选购实测：DeepSeek/GLM/Kimi/Qwen 价格、延迟、稳定性核验方法，统一入口方案与避坑清单。数据可复现，价格标注核验日期。"
+url: "https://mrshrawho.github.io"
+baseurl: ""
+lang: zh-CN
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
