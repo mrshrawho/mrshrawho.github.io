@@ -47,6 +47,10 @@ Codex App 是 OpenAI 推出的 ChatGPT **桌面应用**（包名 `OpenAI.Codex`�
 3. **重启生效**：完全退出（含托盘）并重启 Codex 桌面应用。
 4. **开始使用**：直接对话或用 Codex 模式写代码。
 
+![安装脚本运行效果](img/runpic.png)
+
+![Codex App 应用截图](img/codexapppic.png)
+
 ## 为什么桌面端、CLI、IDE 三端共用一份配置
 
 Codex 的桌面应用与 CLI、IDE 扩展**共用同一份 `~/.codex/config.toml`**（官方文档原话：agents in the app inherit the same configuration as the IDE and CLI extension）。这意味着配置一次，三端生效，不需要在三个地方分别填端点。

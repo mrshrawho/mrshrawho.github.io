@@ -55,6 +55,10 @@ Claude Desktop 的官方 Windows 安装包下载，在国内通常会遇到两�
 
 已安装过的环境重复运行会命中缓存并跳过已装步骤，可以安全重复执行。
 
+![安装脚本运行截图](img/run.png)
+
+![Claude Desktop 运行截图](img/desktop.png)
+
 ## 为什么还需要配置聚合 API
 
 Claude Desktop 正常使用需要登录 Anthropic 账号，国内直接登录通常也会遇到访问问题。聚合 API 的思路是：**不登录 Anthropic，把 Claude Desktop 的推理请求指向一个兼容 Anthropic Messages 协议的端点**（通过注册表策略，这是官方 MDM 方式），端点替你完成与上游的对接。
