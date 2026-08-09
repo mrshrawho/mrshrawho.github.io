@@ -20,6 +20,8 @@ date: 2026-08-07
 - [2026年 AI 中转站怎么选？从 5 个真实痛点出发](https://mrshrawho.github.io/ai-api-relay-select-2026/) — 2026年AI中转站选型指南：从价格、延迟、Key管理、平台风险和国产模型分散五个痛点出发，给出可复现的核验方法。
 - [AI 中转站评测与推荐 2026](https://mrshrawho.github.io/ai-relay-testing-playbook/) — 持续更新的中转站评测：5类平台对比、Tokeness深度评测、选站6要点与缓存价格避坑、注册接入完整教程。实测方法公开，价格标注核验日期。
 - [AI 中转站选型与横评 2026](https://mrshrawho.github.io/ai-relay-selection-2026/) — 5家主流平台深度横评、6大企业级对比、低价陷阱复盘、聚合平台排名解析。基于2026年8月实测与公开价格核验，推荐结论说明理由也说明边界。
+- [Claude Desktop 国内安装教程：一键解决下载与 Claude Code 组件缺失（2026）](https://mrshrawho.github.io/claude-desktop-install-guide/) — 国内安装 Claude Desktop 的完整教程：官方下载被墙怎么办、Host Claude Code binary not available 如何修复、聚合 API 怎么配置。提供一键安装程序与分步说明。
+- [Codex App（ChatGPT 桌面版）国内安装教程：一键安装与聚合 API 配置（2026）](https://mrshrawho.github.io/codex-app-install-guide/) — 国内安装 Codex App（ChatGPT 桌面版）的完整教程：官方 MSIX 下载被墙怎么办、聚合 API 怎么配置、桌面端 CLI IDE 三端共用配置怎么生效。提供一键安装程序与分步说明。
 
 ## English Guides
 
