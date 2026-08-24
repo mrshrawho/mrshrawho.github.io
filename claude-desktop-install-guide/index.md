@@ -45,11 +45,11 @@ Claude Desktop 的官方 Windows 安装包下载，在国内通常会遇到两�
 2. **配置聚合 API**（回车即默认值）：
    ```
    是否配置聚合 API？[Y/n]        回车（默认 Y）
-   中转 Base URL [默认 https://n.tokeness.io]  回车
+   中转 Base URL [默认 https://n.tokeness.dev]  回车
    API Key（格式 sk-xxxxxx）     粘贴你的 Key
    模型 ID（回车用官方最新）       回车
    ```
-   Key 在 https://tokeness.io/keys 注册获取；留空回车会自动打开浏览器跳到获取页面。
+   Key 在 https://tokeness.ai/keys 注册获取；留空回车会自动打开浏览器跳到获取页面。
 3. **重启生效**：完全退出 Claude Desktop（含系统托盘图标）再重新打开。
 4. **验证**：开始对话。若仍提示连接失败，运行 `reg query HKCU\SOFTWARE\Policies\Claude`，应有 4 个 `inference*` 值。
 
@@ -63,7 +63,7 @@ Claude Desktop 的官方 Windows 安装包下载，在国内通常会遇到两�
 
 Claude Desktop 正常使用需要登录 Anthropic 账号，国内直接登录通常也会遇到访问问题。聚合 API 的思路是：**不登录 Anthropic，把 Claude Desktop 的推理请求指向一个兼容 Anthropic Messages 协议的端点**（通过注册表策略，这是官方 MDM 方式），端点替你完成与上游的对接。
 
-程序默认填的是 [Tokeness](https://tokeness.io) 的 `https://n.tokeness.io`。选择聚合端点时建议自己核验三件事（方法见 [AI API Relay Testing Playbook](https://mrshrawho.github.io/ai-relay-testing-playbook/)）：
+程序默认填的是 [Tokeness](https://tokeness.ai) 的 `https://n.tokeness.dev`。选择聚合端点时建议自己核验三件事（方法见 [AI API Relay Testing Playbook](https://mrshrawho.github.io/ai-relay-testing-playbook/)）：
 
 - 是否支持 **Anthropic Messages 协议**（模型名为 `claude-*` 角色）
 - 模型 ID 是否明确（2026-08 官方最新为 `claude-opus-5,claude-sonnet-5,claude-haiku-4-5`）

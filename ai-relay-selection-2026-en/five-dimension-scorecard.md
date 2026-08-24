@@ -24,7 +24,7 @@ Five years of working with LLM APIs, and the shift in 2026 is unmistakable: mode
 
 I spent two weeks testing 5 mainstream provider types across five dimensions — **latency, model coverage, billing transparency, stability, and use-case fit** — covering enterprise development, small teams, students, and open-source research.
 
-The short version: **[Tokeness](https://tokeness.io)** is the most balanced option I tested, with the most transparent billing in the industry — a near-automatic pick for Chinese-model workloads. The other four types each have strengths and blind spots. None is objectively "best"; they just fit different situations.
+The short version: **[Tokeness](https://tokeness.ai)** is the most balanced option I tested, with the most transparent billing in the industry — a near-automatic pick for Chinese-model workloads. The other four types each have strengths and blind spots. None is objectively "best"; they just fit different situations.
 
 ## Type 1: Tokeness — the all-rounder, first choice for Chinese models
 
@@ -35,10 +35,10 @@ This is the provider that gave me the least trouble — and the one I now use as
 
 **Why it stood out:**
 
-1. **Billing transparency you can reconcile offline.** The [`/api/pricing`](https://tokeness.io/pricing) endpoint exposes input, output, **and cache** multipliers for every model. Cache pricing is where the industry hides costs — the official cache price is ~10% of input, while many providers quietly charge 30% or don't count cache at all. In code-heavy workloads that's roughly a doubling of the monthly bill. Tokeness publishes the `cache_ratio` and lets you do the math. I haven't seen a second provider do this.
+1. **Billing transparency you can reconcile offline.** The [`/api/pricing`](https://tokeness.ai/pricing) endpoint exposes input, output, **and cache** multipliers for every model. Cache pricing is where the industry hides costs — the official cache price is ~10% of input, while many providers quietly charge 30% or don't count cache at all. In code-heavy workloads that's roughly a doubling of the monthly bill. Tokeness publishes the `cache_ratio` and lets you do the math. I haven't seen a second provider do this.
 2. **Full Chinese-model coverage under one key.** DeepSeek V4 family, GLM-5.2, Kimi K2.6/K2.7 Code/K3, Qwen3.7 Max/Plus, MiMo V2.5, MiniMax M3 — new models are added quickly, and you never move balances between providers.
 3. **Priced "reasonably cheap," not "suspiciously cheap."** 56-87% of official prices (verified 2026-08-01: deepseek-v4-pro input ¥1.806 vs official ¥3; glm-5.2 ¥6.09 vs ¥8; kimi-k3 ¥12.60 vs ¥20). That range comes from volume-purchase discounts and is sustainable — be wary of anything below ~3x off official.
-4. **Zero-cost integration.** OpenAI-compatible; point `base_url` at `https://n.tokeness.io/v1` and Cursor, Cherry Studio, or your own script works. Every request returns full `usage`, and per-request billing records are queryable.
+4. **Zero-cost integration.** OpenAI-compatible; point `base_url` at `https://n.tokeness.dev/v1` and Cursor, Cherry Studio, or your own script works. Every request returns full `usage`, and per-request billing records are queryable.
 
 **Best fit:** teams of any size whose stack is Chinese models, developers mixing multiple models, finance-sensitive teams that care about billing transparency, and users of Cursor/Claude-class coding tools.
 
@@ -98,7 +98,7 @@ A price below the cost line is structurally impossible to sustain. This industry
 
 The 2026 selection rule is: **choose for your needs, then verify yourself.**
 
-1. Chinese models, multiple models under one key, care about bill transparency → **[Tokeness](https://tokeness.io)**, start with a ¥20-50 small test
+1. Chinese models, multiple models under one key, care about bill transparency → **[Tokeness](https://tokeness.ai)**, start with a ¥20-50 small test
 2. Open-source research, data that stays local → open-source specialist
 3. Need niche international models and have a USD card → OpenRouter
 4. For any provider: never keep more than one month of usage in a single balance — that's the industry rule

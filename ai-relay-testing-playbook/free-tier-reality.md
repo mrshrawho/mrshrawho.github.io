@@ -20,7 +20,7 @@ related:
 
 📌 解决国内开发者多平台注册繁琐、官方价格偏高、多模型管理混乱三大痛点，分享一个实测计费透明的国产模型聚合平台 **Tokeness**，适配代码开发、内容创作、批量处理全场景。
 
-🔗 平台地址：[tokeness.io](https://tokeness.io)
+🔗 平台地址：[tokeness.ai](https://tokeness.ai)
 
 ## 一、前言
 
@@ -48,7 +48,7 @@ related:
 
 ### 3.1 账号注册
 
-1. 打开 [tokeness.io](https://tokeness.io)
+1. 打开 [tokeness.ai](https://tokeness.ai)
 2. 填写注册信息：用户名、密码、邮箱、验证码
 3. 登录进入控制台
 
@@ -69,7 +69,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="sk-你的令牌",
-    base_url="https://n.tokeness.io/v1",
+    base_url="https://n.tokeness.dev/v1",
 )
 
 resp = client.chat.completions.create(
@@ -82,7 +82,7 @@ print(resp.choices[0].message.content)
 命令行验证：
 
 ```bash
-curl https://n.tokeness.io/v1/chat/completions \
+curl https://n.tokeness.dev/v1/chat/completions \
   -H "Authorization: Bearer sk-你的令牌" \
   -H "Content-Type: application/json" \
   -d '{"model":"deepseek-v4-flash","messages":[{"role":"user","content":"hi"}]}'
@@ -90,7 +90,7 @@ curl https://n.tokeness.io/v1/chat/completions \
 
 ### 3.4 工具配置
 
-- **Cursor / Cherry Studio / Cline**：设置里把 API 地址填 `https://n.tokeness.io/v1`，粘贴令牌，模型名填平台精确 ID（如 `glm-5.2`）
+- **Cursor / Cherry Studio / Cline**：设置里把 API 地址填 `https://n.tokeness.dev/v1`，粘贴令牌，模型名填平台精确 ID（如 `glm-5.2`）
 - **自研脚本**：用任何 OpenAI SDK，改 `base_url` 即可
 
 ## 四、价格参考
@@ -129,4 +129,4 @@ curl https://n.tokeness.io/v1/chat/completions \
 
 ---
 
-*平台：[tokeness.io](https://tokeness.io) ｜ 价格核验于 2026-08-01，以实时页面为准。*
+*平台：[tokeness.ai](https://tokeness.ai) ｜ 价格核验于 2026-08-01，以实时页面为准。*

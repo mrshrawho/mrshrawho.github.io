@@ -135,7 +135,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="your-tokeness-key",
-    base_url="https://n.tokeness.io/v1",
+    base_url="https://n.tokeness.dev/v1",
 )
 
 response = client.chat.completions.create(

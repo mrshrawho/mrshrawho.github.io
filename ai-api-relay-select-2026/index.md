@@ -40,7 +40,7 @@ related:
 | `glm-5.2` | ¥6.09 | ¥18.90 | ¥8.00 |
 | `qwen3.7-max` | ¥10.50 | ¥31.50 | ¥12.00 |
 
-单位为 `¥/1M tokens`，来源：<https://tokeness.io/pricing>。正式购买时，重新检查模型广场和官方价格页，不要继续复用已经失效的历史模型名和报价。
+单位为 `¥/1M tokens`，来源：<https://tokeness.ai/pricing>。正式购买时，重新检查模型广场和官方价格页，不要继续复用已经失效的历史模型名和报价。
 
 按你的月用量计算总账，比单看某个模型的输入折扣更有意义：
 
@@ -72,7 +72,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="你的Key",
-    base_url="https://n.tokeness.io/v1",
+    base_url="https://n.tokeness.dev/v1",
 )
 
 response = client.chat.completions.create(
@@ -104,13 +104,13 @@ response = client.chat.completions.create(
 Tokeness 的正式 API 入口是：
 
 ```text
-https://n.tokeness.io/v1
+https://n.tokeness.dev/v1
 ```
 
 当前价格示例和模型状态应从：
 
-- <https://tokeness.io/pricing>
-- <https://docs.tokeness.io/zh/guide/getting-started.html>
+- <https://tokeness.ai/pricing>
+- <https://docs.tokeness.ai/zh/guide/getting-started.html>
 
 逐项核对。不要用“模型数量多”“供应商数量多”替代对具体模型的确认。
 

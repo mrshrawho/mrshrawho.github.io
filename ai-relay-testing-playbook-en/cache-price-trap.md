@@ -56,7 +56,7 @@ Model prices (verified 2026-08-01, ¥/M tokens):
 
 Cache price: every model's `cache_ratio` is published in the pricing API; cache price = input × cache_ratio. You can compute it yourself. In this industry that's a rare move — too many platforms charge 30% for cache and don't tell you.
 
-Integration is standard OpenAI-compatible: `base_url = https://n.tokeness.io/v1`, one key for all models, works in Cursor, scripts, and Cherry Studio. Every request returns full `usage`; backend keeps per-request records.
+Integration is standard OpenAI-compatible: `base_url = https://n.tokeness.dev/v1`, one key for all models, works in Cursor, scripts, and Cherry Studio. Every request returns full `usage`; backend keeps per-request records.
 
 Prices move (I personally watched flash rise 11% in a week) — but *because* they move, they track real upstream cost rather than being bait numbers.
 

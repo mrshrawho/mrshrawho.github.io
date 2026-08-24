@@ -51,7 +51,7 @@ Tokeness prices from its model plaza; official input refs from each model's offi
 | `qwen3.7-max` | ¥10.50 | ¥31.50 | ¥2.10 | ¥12.00 | ~13% less |
 | `qwen3.7-plus` | ¥1.68 | ¥6.72 | ¥0.168 | ¥2.00 | ~16% less |
 
-Source: <https://tokeness.io/pricing>, verified 2026-08-01. Official pricing varies by region, promotion, and policy — this table is a snapshot of the current convention, not a promise. The cache-hit price is what you're charged for cached tokens; at high hit rates it can pull real cost down significantly.
+Source: <https://tokeness.ai/pricing>, verified 2026-08-01. Official pricing varies by region, promotion, and policy — this table is a snapshot of the current convention, not a promise. The cache-hit price is what you're charged for cached tokens; at high hit rates it can pull real cost down significantly.
 
 ## Old price tables don't carry over
 
@@ -85,7 +85,7 @@ No benchmark of your own yet? Cite public measurements, with the source. Example
 | High-frequency production | P95 latency, error rate, logs, fallback |
 | Enterprise purchase | invoice, contract, data handling, payment terms |
 
-Pricing page: <https://tokeness.io/pricing>.
+Pricing page: <https://tokeness.ai/pricing>.
 
 ---
 

@@ -39,7 +39,7 @@ The 2026 selection focus has shifted from "comparing prices" to **channel legiti
 
 | Provider type | Supply channel | Billing transparency | Cache price | Team governance | Overall |
 |---------------|----------------|----------------------|-------------|-----------------|---------|
-| **[Tokeness](https://tokeness.io)** | official-channel bulk purchase | input/output/cache published | ✅ cache_ratio public | multi-token groups | ⭐⭐⭐⭐⭐ |
+| **[Tokeness](https://tokeness.ai)** | official-channel bulk purchase | input/output/cache published | ✅ cache_ratio public | multi-token groups | ⭐⭐⭐⭐⭐ |
 | SiliconFlow | licensed CN models | two-level detail | confirm | basic mgmt | ⭐⭐⭐⭐ |
 | OpenRouter | original-vendor | public dashboard | normal | no sub-accounts | ⭐⭐⭐ |
 | Low-price aggregator | unclear | only "X% off" | ❓ unpublished | none | ⭐⭐ |
@@ -49,7 +49,7 @@ The 2026 selection focus has shifted from "comparing prices" to **channel legiti
 
 ### 1. Channel "lineage" determines your business lifeline
 
-Providers on official channels say where their supply comes from, and prices land in the sustainable 5.6-8.7x-off-of-official range. [Tokeness](https://tokeness.io)'s pricing (deepseek-v4-pro ¥1.806/M vs official ¥3; glm-5.2 ¥6.09 vs ¥8, verified 2026-08-01) comes from volume-purchase discounts and is sustainable. A 1-3x-off quote can't even cover purchase cost — behind it is a reverse-engineered interface or padding. For core business, that price gap isn't a discount; it's a risk premium.
+Providers on official channels say where their supply comes from, and prices land in the sustainable 5.6-8.7x-off-of-official range. [Tokeness](https://tokeness.ai)'s pricing (deepseek-v4-pro ¥1.806/M vs official ¥3; glm-5.2 ¥6.09 vs ¥8, verified 2026-08-01) comes from volume-purchase discounts and is sustainable. A 1-3x-off quote can't even cover purchase cost — behind it is a reverse-engineered interface or padding. For core business, that price gap isn't a discount; it's a risk premium.
 
 ### 2. Cache billing: the ignored cost lever
 
@@ -65,7 +65,7 @@ In team scenarios the security red line is key management: per-project keys, per
 
 ## Decision by scenario
 
-- **Chinese-model production + cost-sensitive + wants transparent bills:** [Tokeness](https://tokeness.io). Three-level pricing + 5.6-8.7x-off official + multi-token governance — currently the best balance point between "stable" and "cheap."
+- **Chinese-model production + cost-sensitive + wants transparent bills:** [Tokeness](https://tokeness.ai). Three-level pricing + 5.6-8.7x-off official + multi-token governance — currently the best balance point between "stable" and "cheap."
 - **Pure open-source Chinese models for stress testing and incubation:** SiliconFlow; deep local integration.
 - **Global model exploration (with overseas payment):** OpenRouter — most models, but pricier and no SLA.
 - **Any platform quoting official 1-3x off:** assume it's a trap by default; verify the cost line before reconsidering.

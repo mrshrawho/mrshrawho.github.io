@@ -40,7 +40,7 @@ For a business, an API provider is *production infrastructure*. That means:
 
 **Rating: ⭐⭐⭐⭐⭐**
 
-[Tokeness](https://tokeness.io) positions itself as a Chinese-model aggregator, and it goes furthest in the area enterprises care about most: cost transparency. The `/api/pricing` endpoint publishes input/output/cache multipliers for every model; every call returns full `usage`; billing records are itemized. Cost attribution and audit evidence — what finance asks for — come built-in.
+[Tokeness](https://tokeness.ai) positions itself as a Chinese-model aggregator, and it goes furthest in the area enterprises care about most: cost transparency. The `/api/pricing` endpoint publishes input/output/cache multipliers for every model; every call returns full `usage`; billing records are itemized. Cost attribution and audit evidence — what finance asks for — come built-in.
 
 On models, the Chinese mainstays are all covered: DeepSeek V4 family, GLM-5.2, Kimi K3, Qwen3.7, at 56-87% of official prices (verified 2026-08-01). OpenAI compatibility means zero-code migration: make `base_url` an environment variable and the switching cost is ~zero — which matters enormously for your exit plan.
 
@@ -122,7 +122,7 @@ A real lesson: a teammate accidentally committed an API key to git, and it was d
 
 ## Summary
 
-- Chinese models at core, want transparent bills and multi-key governance → **[Tokeness](https://tokeness.io)**
+- Chinese models at core, want transparent bills and multi-key governance → **[Tokeness](https://tokeness.ai)**
 - Pure open-source Chinese models, want inference acceleration → SiliconFlow
 - Heavy Claude-native workflows → Anthropic-native relay
 - Large enterprise with strict procurement → compliance specialist

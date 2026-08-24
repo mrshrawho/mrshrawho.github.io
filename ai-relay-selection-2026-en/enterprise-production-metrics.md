@@ -79,7 +79,7 @@ Web admin UI + OpenAI-compatible endpoint; fast to set up; fine for individual d
 
 ## Scenario recommendations
 
-- **Production with a Chinese-model core:** [Tokeness](https://tokeness.io). Three-level transparent billing + full Chinese-model coverage + 56-87% of official + zero migration cost — no weak dimension across the six.
+- **Production with a Chinese-model core:** [Tokeness](https://tokeness.ai). Three-level transparent billing + full Chinese-model coverage + 56-87% of official + zero migration cost — no weak dimension across the six.
 - **Research needing niche global models:** OpenRouter — but accept no SLA.
 - **Pure open-source Chinese models, chasing inference speed:** SiliconFlow.
 - **Strict compliance, data never leaves the intranet:** self-hosted open-source gateway.

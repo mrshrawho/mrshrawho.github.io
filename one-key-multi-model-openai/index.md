@@ -55,7 +55,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="YOUR_API_KEY",
-    base_url="https://n.tokeness.io/v1",
+    base_url="https://n.tokeness.dev/v1",
 )
 
 def ask(model, prompt):
@@ -70,7 +70,7 @@ print(ask("glm-5.2", "Turn the following into JSON"))
 print(ask("qwen3.7-max", "Write a weekly report in Chinese"))
 ```
 
-Entry point, model IDs, and protocol capabilities should always be checked against the current docs and model plaza. Getting-started docs: <https://docs.tokeness.io/zh/guide/getting-started>.
+Entry point, model IDs, and protocol capabilities should always be checked against the current docs and model plaza. Getting-started docs: <https://docs.tokeness.ai/zh/guide/getting-started>.
 
 ## It's not just fewer config lines
 
@@ -80,7 +80,7 @@ Multi-provider means saving each vendor's key, Base URL, and model names. A unif
 
 ```env
 AI_API_KEY=your-api-key
-AI_BASE_URL=https://n.tokeness.io/v1
+AI_BASE_URL=https://n.tokeness.dev/v1
 ```
 
 Keep keys in environment variables or a secret manager either way — never in a public repo.

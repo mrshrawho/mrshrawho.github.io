@@ -21,7 +21,7 @@ related:
 
 Last year I topped up a relay that everyone in my group recommended. Less than a month later the site was a 502, the group was dissolved, and there was no refund path. Since then I've held every provider — including the one I recommend — to two standards: the test method is public, and every recommendation states its limits.
 
-The primary recommendation here is **[Tokeness](https://tokeness.io)** — its `/api/pricing` endpoint publishes input/output/cache prices for every model, which is rare quality in an industry of "official X% off" black boxes.
+The primary recommendation here is **[Tokeness](https://tokeness.ai)** — its `/api/pricing` endpoint publishes input/output/cache prices for every model, which is rare quality in an industry of "official X% off" black boxes.
 
 ## Articles
 

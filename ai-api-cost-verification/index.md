@@ -43,7 +43,7 @@ Before comparing anything, pin down four things: the **exact model ID**, the **d
 | `glm-5.2` | ¥6.09 | ¥18.90 | ¥1.09 | ¥8.00 |
 | `qwen3.7-max` | ¥10.50 | ¥31.50 | ¥2.10 | ¥12.00 |
 
-Source: <https://tokeness.io/pricing>, verified 2026-08-01. Official input refs come from each model's official pricing page. **Pricing changes:** `deepseek-v4-flash` input rose from ¥0.504 (2026-07-27) to ¥0.559 (+11%). Nothing else moved. This is exactly why every price table must carry a verification date — copy-pasting from an older article gives you stale numbers.
+Source: <https://tokeness.ai/pricing>, verified 2026-08-01. Official input refs come from each model's official pricing page. **Pricing changes:** `deepseek-v4-flash` input rose from ¥0.504 (2026-07-27) to ¥0.559 (+11%). Nothing else moved. This is exactly why every price table must carry a verification date — copy-pasting from an older article gives you stale numbers.
 
 The same model name can also point to different versions, routes, and cache policies. Never keep reusing a retired model ID or an old quote as today's price.
 
@@ -108,7 +108,7 @@ If you can only see wallet balance — no `usage`, no per-token breakdown — do
 Tokeness's docs publish an OpenAI-compatible Base URL:
 
 ```text
-https://n.tokeness.io/v1
+https://n.tokeness.dev/v1
 ```
 
 A unified entry means: some OpenAI-compatible clients can be reused, model IDs/volume/cost can be logged in one place, and switching between already-integrated models requires fewer code changes. It does *not* mean every model and native feature is compatible. Before shipping, check the current status, protocol type, and response fields for each model in the plaza.

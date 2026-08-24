@@ -27,7 +27,7 @@ How it works in one sentence:
 ```text
 Your code / Cursor / custom app
         ↓ (change base_url, OpenAI-compatible format)
-    n.tokeness.io (aggregation layer: auth → route → forward)
+    n.tokeness.ai (aggregation layer: auth → route → forward)
         ↓ (to each model vendor's official API)
     official model result → back to you the same way
 ```
@@ -49,7 +49,7 @@ It solves three real problems:
 | What it is | third-party API aggregator (you → Tokeness → model vendors) |
 | Models | DeepSeek V4 family, GLM-5.2, Kimi K2.6/K2.7/K3, Qwen3.7 Max/Plus, MiMo V2.5, MiniMax M3 |
 | API | OpenAI-compatible (`/v1/chat/completions`); change base_url |
-| Base URL | `https://n.tokeness.io/v1` |
+| Base URL | `https://n.tokeness.dev/v1` |
 | Price | 56-87% of official (varies by model); input/output/cache published |
 | Price source | `/api/pricing` public endpoint; reconcile offline |
 | Billing | per-token; every request returns full usage |
@@ -82,7 +82,7 @@ The third detail: its price page is **alive**. I verified deepseek-v4-flash inpu
 
 ### Step 0: Sign up
 
-Open [tokeness.io](https://tokeness.io), register, and enter the console.
+Open [tokeness.ai](https://tokeness.ai), register, and enter the console.
 
 ### Step 1: Create an API token
 
@@ -95,7 +95,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="sk-your-token",
-    base_url="https://n.tokeness.io/v1",
+    base_url="https://n.tokeness.dev/v1",
 )
 
 resp = client.chat.completions.create(
@@ -108,7 +108,7 @@ print(resp.usage)  # full usage — first step of billing verification
 
 ### Step 3: Wire up Cursor / Cherry Studio / Cline
 
-Point the tool's API address (`OPENAI_BASE_URL` or equivalent) at `https://n.tokeness.io/v1`, paste the token, and use the exact model ID shown in the plaza (e.g. `glm-5.2`, `kimi-k2.7-code`).
+Point the tool's API address (`OPENAI_BASE_URL` or equivalent) at `https://n.tokeness.dev/v1`, paste the token, and use the exact model ID shown in the plaza (e.g. `glm-5.2`, `kimi-k2.7-code`).
 
 ### Step 4: Top-up advice
 
@@ -178,4 +178,4 @@ But remember the third-party boundary: personal development, prototypes, and non
 
 ---
 
-*Prices verified 2026-08-01; models and prices follow the live [tokeness.io/pricing](https://tokeness.io/pricing) page.*
+*Prices verified 2026-08-01; models and prices follow the live [tokeness.ai/pricing](https://tokeness.ai/pricing) page.*

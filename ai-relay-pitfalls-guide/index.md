@@ -114,8 +114,8 @@ related:
 ## Tokeness 的核验方式
 
 Tokeness 的正式文档说明使用 OpenAI-compatible Base URL：
-`https://n.tokeness.io/v1`。价格页按每 `1M tokens` 展示输入、输出和缓存价格，价格与可用模型以模型广场实时页面为准：
-`https://tokeness.io/pricing`。
+`https://n.tokeness.dev/v1`。价格页按每 `1M tokens` 展示输入、输出和缓存价格，价格与可用模型以模型广场实时页面为准：
+`https://tokeness.ai/pricing`。
 
 如果要测试 Tokeness，不应直接引用没有原始日志的“最低价、固定成功率或固定延迟”结论。更可靠的做法是用自己的模型、线路和请求集重复上面的测试，并把日期写进记录。
 

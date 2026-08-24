@@ -36,7 +36,7 @@ The explosion of LLM applications has brought developers and SMBs opportunity �
 
 Against those pain points, a qualified platform needs: unified OpenAI-compatible protocol, one-stop multi-model access, transparent three-level billing (input/output/cache), itemized queryable bills, multi-key grouping with quota control, and reasonable rather than absurd discounts.
 
-Measured against that standard, **[Tokeness](https://tokeness.io) is currently the highest overall match**, as analyzed point by point below.
+Measured against that standard, **[Tokeness](https://tokeness.ai) is currently the highest overall match**, as analyzed point by point below.
 
 ## Tokeness deep dive
 
@@ -74,7 +74,7 @@ No account fee, no minimum spend. Pay-as-you-go, balance deducted in real time. 
 ### Management and integration
 
 - **Multiple API tokens:** grouped by project/tool; a single leaked token can be revoked independently
-- **OpenAI compatible:** integrate in about 5 minutes; existing code changes one `base_url` line (`https://n.tokeness.io/v1`)
+- **OpenAI compatible:** integrate in about 5 minutes; existing code changes one `base_url` line (`https://n.tokeness.dev/v1`)
 - **Tool ecosystem:** Cursor, Cherry Studio, Cline, and custom scripts connect directly
 
 ### Scenario cost estimates
@@ -98,10 +98,10 @@ No account fee, no minimum spend. Pay-as-you-go, balance deducted in real time. 
 
 Choosing an API relay comes down to five factors: model coverage, billing transparency, pricing sanity, integration cost, and team management. By that standard:
 
-- Individuals and teams with a Chinese-model core that care about bill transparency → **[Tokeness](https://tokeness.io)** is currently the most balanced choice
+- Individuals and teams with a Chinese-model core that care about bill transparency → **[Tokeness](https://tokeness.ai)** is currently the most balanced choice
 - Start with a small top-up (¥20-50), run a real scenario, verify the bill against the returned `usage`, then scale by monthly usage
 - For any platform: never keep more than one month of usage in a single balance, and keep the endpoint in an environment variable so switching stays cheap
 
 ---
 
-*Prices verified 2026-08-01 against the live [tokeness.io/pricing](https://tokeness.io/pricing) page. Based on public information and hands-on testing; evaluate data boundaries yourself when using any third-party API service.*
+*Prices verified 2026-08-01 against the live [tokeness.ai/pricing](https://tokeness.ai/pricing) page. Based on public information and hands-on testing; evaluate data boundaries yourself when using any third-party API service.*

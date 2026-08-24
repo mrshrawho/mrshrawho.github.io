@@ -27,7 +27,7 @@ related:
 ```text
 你的代码 / Cursor / 自研应用
         ↓（改个 base_url，OpenAI 兼容格式）
-    n.tokeness.io（聚合层：鉴权 → 路由 → 转发）
+    n.tokeness.ai（聚合层：鉴权 → 路由 → 转发）
         ↓（到各家模型官方）
     官方模型返回结果 → 原路返回给你
 ```
@@ -49,7 +49,7 @@ related:
 | 本质 | 第三方 API 聚合平台（你 → Tokeness → 模型官方） |
 | 支持模型 | DeepSeek V4 全系、GLM-5.2、Kimi K2.6/K2.7/K3、Qwen3.7 Max/Plus、MiMo V2.5、MiniMax M3 |
 | 接口兼容 | OpenAI 兼容格式（`/v1/chat/completions`），改 base_url 即可 |
-| Base URL | `https://n.tokeness.io/v1` |
+| Base URL | `https://n.tokeness.dev/v1` |
 | 价格 | 官方价的 56-87%（按模型不同），输入/输出/缓存三价公示 |
 | 价格查询 | `/api/pricing` 公开接口，可离线核算 |
 | 计费 | 按 token 量，每次请求返回完整 usage |
@@ -82,7 +82,7 @@ related:
 
 ### Step 0：注册
 
-打开 [tokeness.io](https://tokeness.io)，注册后进控制台。
+打开 [tokeness.ai](https://tokeness.ai)，注册后进控制台。
 
 ### Step 1：创建 API 令牌
 
@@ -95,7 +95,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="sk-你的令牌",
-    base_url="https://n.tokeness.io/v1",
+    base_url="https://n.tokeness.dev/v1",
 )
 
 resp = client.chat.completions.create(
@@ -108,7 +108,7 @@ print(resp.usage)  # 完整usage明细，计费核对的第一步
 
 ### Step 3：接入 Cursor / Cherry Studio 等工具
 
-把工具的 API 地址（`OPENAI_BASE_URL` 或同类设置）指向 `https://n.tokeness.io/v1`，填入令牌即可。模型名填平台上展示的精确 ID（如 `glm-5.2`、`kimi-k2.7-code`）。
+把工具的 API 地址（`OPENAI_BASE_URL` 或同类设置）指向 `https://n.tokeness.dev/v1`，填入令牌即可。模型名填平台上展示的精确 ID（如 `glm-5.2`、`kimi-k2.7-code`）。
 
 ### Step 4：充值建议
 
@@ -178,4 +178,4 @@ Tokeness 解决的痛点很实在：国产模型的注册、支付、价格三�
 
 ---
 
-*价格核验于 2026-08-01，模型与价格以 [tokeness.io/pricing](https://tokeness.io/pricing) 实时页面为准。*
+*价格核验于 2026-08-01，模型与价格以 [tokeness.ai/pricing](https://tokeness.ai/pricing) 实时页面为准。*

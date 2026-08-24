@@ -61,7 +61,7 @@ related:
 import time
 from openai import OpenAI
 
-client = OpenAI(api_key="sk-你的key", base_url="https://n.tokeness.io/v1")
+client = OpenAI(api_key="sk-你的key", base_url="https://n.tokeness.dev/v1")
 
 def measure(model: str, prompt: str, n: int = 20):
     ttfts, tpss, errors = [], [], 0
@@ -101,7 +101,7 @@ def measure(model: str, prompt: str, n: int = 20):
 
 | 平台类型 | 价格透明度 | 模型一致性 | 国内直连 | 缓存价 | 综合 |
 |----------|-----------|-----------|---------|--------|------|
-| **[Tokeness](https://tokeness.io)** | ✅ 三价公示（含缓存比率） | ✅ usage 完整可核对 | ✅ 稳定 | ✅ 公示 cache_ratio | ⭐⭐⭐⭐⭐ |
+| **[Tokeness](https://tokeness.ai)** | ✅ 三价公示（含缓存比率） | ✅ usage 完整可核对 | ✅ 稳定 | ✅ 公示 cache_ratio | ⭐⭐⭐⭐⭐ |
 | 低价聚合型 | ⚠️ 只标"X 折" | ⚠️ 高峰期疑似降级 | ✅ 较稳定 | ❓ 不公示 | ⭐⭐⭐ |
 | 海外路由型 | ✅ 面板公开 | ✅ 原厂通道 | ❌ 需代理 | ✅ 正常 | ⭐⭐⭐ |
 | 高门槛套餐型 | ⚠️ 套餐折算不透明 | ✅ 尚可 | ⚠️ 一般 | ❓ 不公示 | ⭐⭐ |
@@ -111,9 +111,9 @@ def measure(model: str, prompt: str, n: int = 20):
 
 ## 主力推荐：Tokeness
 
-我目前的主力平台是 [Tokeness](https://tokeness.io)，说说为什么。
+我目前的主力平台是 [Tokeness](https://tokeness.ai)，说说为什么。
 
-**1. 价格透明到可以直接对账。** 它的 [`/api/pricing`](https://tokeness.io/pricing) 接口公开每个模型的输入倍率、输出倍率、**缓存倍率**——缓存价这一项目前绝大多数平台不公示，而写代码场景缓存能占输入量一半以上。2026-08-01 核验的部分价格：
+**1. 价格透明到可以直接对账。** 它的 [`/api/pricing`](https://tokeness.ai/pricing) 接口公开每个模型的输入倍率、输出倍率、**缓存倍率**——缓存价这一项目前绝大多数平台不公示，而写代码场景缓存能占输入量一半以上。2026-08-01 核验的部分价格：
 
 | 模型 | Tokeness 输入 | Tokeness 输出 | 官方输入参考 | 差异 |
 |------|--------------:|--------------:|-------------:|------|
@@ -126,7 +126,7 @@ def measure(model: str, prompt: str, n: int = 20):
 
 **2. 一个 key 覆盖国产主流模型。** DeepSeek V4 全系、GLM-5.2、Kimi K2.6/K2.7/K3、Qwen3.7、MiMo、MiniMax 都在，新模型跟进快。对比任务时不用在多个平台间搬余额。
 
-**3. 接入零成本。** OpenAI 兼容，`base_url` 指向 `https://n.tokeness.io/v1` 即可，Cursor、Cherry Studio、自研脚本直接接。
+**3. 接入零成本。** OpenAI 兼容，`base_url` 指向 `https://n.tokeness.dev/v1` 即可，Cursor、Cherry Studio、自研脚本直接接。
 
 **4. 计费诚实可验证。** 每次请求返回完整 `usage`，后台有逐条调用记录。价格页面是活的——我连续核验发现 deepseek-v4-flash 一周内从 ¥0.504 调到 ¥0.559（+11%），说明定价在跟随上游真实变动，不是拿来吸引人的摆设数字。
 

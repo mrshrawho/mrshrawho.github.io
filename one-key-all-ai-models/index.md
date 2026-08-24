@@ -63,7 +63,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="YOUR_TOKENESS_KEY",
-    base_url="https://n.tokeness.io/v1",
+    base_url="https://n.tokeness.dev/v1",
 )
 
 def ask(model, prompt):
@@ -79,7 +79,7 @@ print(ask("qwen3.7-max", "写一份中文周报"))
 ```
 
 入口、模型 ID 和协议能力都应以文档和模型广场当前展示为准。官方接入说明：
-`https://docs.tokeness.io/zh/guide/getting-started`。
+`https://docs.tokeness.ai/zh/guide/getting-started`。
 
 ## 不只是少写几行配置
 
@@ -89,7 +89,7 @@ print(ask("qwen3.7-max", "写一份中文周报"))
 
 ```env
 AI_API_KEY=your-tokeness-key
-AI_BASE_URL=https://n.tokeness.io/v1
+AI_BASE_URL=https://n.tokeness.dev/v1
 ```
 
 Key 仍然应该放在环境变量或密钥管理工具中，不要提交到公开仓库。

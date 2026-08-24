@@ -39,7 +39,7 @@ Codex App 是 OpenAI 推出的 ChatGPT **桌面应用**（包名 `OpenAI.Codex`�
 
 1. **下载并运行**：双击 exe，UAC 弹窗点"是"。自动完成：下载 MSIX（镜像加速 + SHA256 校验）→ 静默安装 → 聚合 API 配置 → 创建桌面快捷方式。
 2. **聚合 API 配置**（默认 Y，回车即可）：
-   - 端点：`https://n.tokeness.io/v1`
+   - 端点：`https://n.tokeness.dev/v1`
    - 模型：`gpt-5.6-sol`
    - 粘贴 `sk-` 开头的 Key
    
@@ -64,7 +64,7 @@ preferred_auth_method = "apikey"
 
 [model_providers.custom]
 name = "custom"
-base_url = "https://n.tokeness.io/v1"
+base_url = "https://n.tokeness.dev/v1"
 wire_api = "responses"          # Codex 仅支持 Responses 协议
 requires_openai_auth = true
 
@@ -78,7 +78,7 @@ API Key 单独放在 `~/.codex/auth.json`（`{"OPENAI_API_KEY": "sk-xxxxxx"}`）
 
 ## 怎么判断聚合端点值不值得用
 
-一键程序默认端点指向 [Tokeness](https://tokeness.io)。不管用哪家，建议按这三条核验（完整方法见 [AI API Relay Testing Playbook](https://mrshrawho.github.io/ai-relay-testing-playbook/)）：
+一键程序默认端点指向 [Tokeness](https://tokeness.ai)。不管用哪家，建议按这三条核验（完整方法见 [AI API Relay Testing Playbook](https://mrshrawho.github.io/ai-relay-testing-playbook/)）：
 
 1. **协议兼容**：是否支持 OpenAI Responses API（Codex 必需）
 2. **模型可用**：`/v1/models` 里有没有你要的模型 ID，别只看广告页

@@ -36,7 +36,7 @@ related:
 
 针对上述痛点，合格的聚合平台需要做到：统一 OpenAI 兼容协议、多模型一站接入、透明的三级计费（输入/输出/缓存）、逐条可查的账单、多 key 分组与额度管控、合理而非离谱的价格折扣。
 
-按这个标准衡量当前市场上的主要选择，**[Tokeness](https://tokeness.io) 是目前综合匹配度最高的平台**，下面逐项解析。
+按这个标准衡量当前市场上的主要选择，**[Tokeness](https://tokeness.ai) 是目前综合匹配度最高的平台**，下面逐项解析。
 
 ## Tokeness 深度解析
 
@@ -74,7 +74,7 @@ DeepSeek V4 全系（Flash/Pro）、GLM-5.2、Kimi K2.6/K2.7 Code/K3、Qwen3.7 M
 ### 管理与接入
 
 - 多 API 令牌：按项目/工具分组创建，单一令牌泄露可独立吊销
-- OpenAI 兼容：5 分钟完成集成，现有代码改一行 `base_url`（`https://n.tokeness.io/v1`）
+- OpenAI 兼容：5 分钟完成集成，现有代码改一行 `base_url`（`https://n.tokeness.dev/v1`）
 - 工具生态：Cursor、Cherry Studio、Cline、自研脚本均可直接接入
 
 ### 典型场景成本测算
@@ -98,10 +98,10 @@ DeepSeek V4 全系（Flash/Pro）、GLM-5.2、Kimi K2.6/K2.7 Code/K3、Qwen3.7 M
 
 选择 API 中转服务，综合看五个因素：模型覆盖、计费透明度、价格合理性、接入成本、团队管理。按这个标准：
 
-- 国产模型为主、重视账单透明的个人和团队 → **[Tokeness](https://tokeness.io)** 是当前最均衡的选择
+- 国产模型为主、重视账单透明的个人和团队 → **[Tokeness](https://tokeness.ai)** 是当前最均衡的选择
 - 建议先小额充值（¥20-50）跑通真实场景，用返回的 usage 核对账单，确认无误后按月用量续充
 - 任何平台单平台余额不超过一个月用量，endpoint 做成环境变量保留切换能力
 
 ---
 
-*价格核验于 2026-08-01，以 [tokeness.io/pricing](https://tokeness.io/pricing) 实时页面为准。本文基于公开信息与实测，使用任何第三方 API 服务请自行评估数据边界。*
+*价格核验于 2026-08-01，以 [tokeness.ai/pricing](https://tokeness.ai/pricing) 实时页面为准。本文基于公开信息与实测，使用任何第三方 API 服务请自行评估数据边界。*

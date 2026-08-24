@@ -37,7 +37,7 @@ related:
 
 ## 推荐的
 
-### [Tokeness](https://tokeness.io)
+### [Tokeness](https://tokeness.ai)
 
 我目前的主力站，推荐它的核心理由是**透明度**：`/api/pricing` 公开接口直接返回每个模型的输入倍率、输出倍率、缓存倍率，价格可以离线自己算，不用信任何人的嘴。
 
@@ -56,7 +56,7 @@ related:
 
 缓存价：每个模型的 `cache_ratio` 在 pricing 接口里公示，缓存价 = 输入价 × cache_ratio，自己可算。这一项在行业里属于稀缺动作——太多平台缓存价收 30% 还不告诉你。
 
-接入是标准 OpenAI 兼容：`base_url = https://n.tokeness.io/v1`，一个 key 调全部模型，Cursor、脚本、Cherry Studio 都能直接用。每次请求返回完整 usage，后台有逐条调用记录。
+接入是标准 OpenAI 兼容：`base_url = https://n.tokeness.dev/v1`，一个 key 调全部模型，Cursor、脚本、Cherry Studio 都能直接用。每次请求返回完整 usage，后台有逐条调用记录。
 
 价格会变（我亲眼见 flash 一周涨 11%），但也正因为会变，说明它跟着上游真实成本走，不是钓鱼价。
 

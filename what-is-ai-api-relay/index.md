@@ -79,8 +79,8 @@ Tokeness 正式文档说明价格按每 `1M tokens` 展示，价格和可用模�
 
 这些数字不是永久报价。购买前查看：
 
-- Tokeness 模型广场：<https://tokeness.io/pricing>
-- Tokeness 文档：<https://docs.tokeness.io/zh/guide/getting-started>
+- Tokeness 模型广场：<https://tokeness.ai/pricing>
+- Tokeness 文档：<https://docs.tokeness.ai/zh/guide/getting-started>
 
 ## 中转站怎么赚钱？
 
@@ -127,7 +127,7 @@ Tokeness 正式文档说明价格按每 `1M tokens` 展示，价格和可用模�
 **2. 设置 Base URL**：
 
 ```text
-https://n.tokeness.io/v1
+https://n.tokeness.dev/v1
 ```
 
 **3. 使用模型广场当前存在的模型 ID**：
@@ -137,7 +137,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="你的Key",
-    base_url="https://n.tokeness.io/v1",
+    base_url="https://n.tokeness.dev/v1",
 )
 
 response = client.chat.completions.create(

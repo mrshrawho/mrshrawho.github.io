@@ -19,7 +19,7 @@ related:
 
 # AI API Aggregator Selection 2026
 
-> Based on verified 2026-08-01 public pricing and reproducible testing methods. Every recommendation for [Tokeness](https://tokeness.io) comes with a reason you can verify yourself.
+> Based on verified 2026-08-01 public pricing and reproducible testing methods. Every recommendation for [Tokeness](https://tokeness.ai) comes with a reason you can verify yourself.
 
 Search for "API relay comparisons" and you'll find a wall of star ratings and "best platform" lists. This series is different: every number carries a verification date and source, prices can be re-checked against `/api/pricing`, and latency is something you're taught to measure — not something you're told to trust.
 

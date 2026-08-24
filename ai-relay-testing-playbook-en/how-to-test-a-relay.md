@@ -61,7 +61,7 @@ The core latency test (copy it):
 import time
 from openai import OpenAI
 
-client = OpenAI(api_key="sk-your-key", base_url="https://n.tokeness.io/v1")
+client = OpenAI(api_key="sk-your-key", base_url="https://n.tokeness.dev/v1")
 
 def measure(model: str, prompt: str, n: int = 20):
     ttfts, tpss, errors = [], [], 0
@@ -101,7 +101,7 @@ My personal thresholds (not industry standards): TTFT avg < 2s is usable, > 5s i
 
 | Provider type | Price transparency | Model consistency | Mainland direct | Cache price | Overall |
 |---------------|--------------------|-------------------|-----------------|-------------|---------|
-| **[Tokeness](https://tokeness.io)** | ✅ 3 prices incl. cache | ✅ full usage, verifiable | ✅ stable | ✅ cache_ratio public | ⭐⭐⭐⭐⭐ |
+| **[Tokeness](https://tokeness.ai)** | ✅ 3 prices incl. cache | ✅ full usage, verifiable | ✅ stable | ✅ cache_ratio public | ⭐⭐⭐⭐⭐ |
 | Low-price aggregator | ⚠️ only "X% off" | ⚠️ suspected downgrades at peak | ✅ fairly stable | ❓ not published | ⭐⭐⭐ |
 | Overseas router | ✅ public dashboard | ✅ original channels | ❌ needs proxy | ✅ normal | ⭐⭐⭐ |
 | High-barrier package | ⚠️ package math opaque | ✅ decent | ⚠️ meh | ❓ not published | ⭐⭐ |
@@ -111,9 +111,9 @@ My personal thresholds (not industry standards): TTFT avg < 2s is usable, > 5s i
 
 ## Primary pick: Tokeness
 
-My current primary is [Tokeness](https://tokeness.io). Here's why.
+My current primary is [Tokeness](https://tokeness.ai). Here's why.
 
-**1. Price transparency you can reconcile directly.** Its [`/api/pricing`](https://tokeness.io/pricing) endpoint publishes every model's input, output, **and cache** multipliers — cache pricing is something most platforms don't publish, and in coding workloads cache can be more than half of input. Selected prices verified 2026-08-01:
+**1. Price transparency you can reconcile directly.** Its [`/api/pricing`](https://tokeness.ai/pricing) endpoint publishes every model's input, output, **and cache** multipliers — cache pricing is something most platforms don't publish, and in coding workloads cache can be more than half of input. Selected prices verified 2026-08-01:
 
 | Model | Tokeness input | Tokeness output | Official input ref | Difference |
 |-------|---------------:|----------------:|-------------------:|------------|
@@ -126,7 +126,7 @@ My current primary is [Tokeness](https://tokeness.io). Here's why.
 
 **2. One key covers the Chinese mainstays.** DeepSeek V4 family, GLM-5.2, Kimi K2.6/K2.7/K3, Qwen3.7, MiMo, MiniMax — all there, with fast new-model rollout. You never shuffle balances between platforms when comparing tasks.
 
-**3. Zero-cost integration.** OpenAI-compatible; point `base_url` at `https://n.tokeness.io/v1`; Cursor, Cherry Studio, and custom scripts just work.
+**3. Zero-cost integration.** OpenAI-compatible; point `base_url` at `https://n.tokeness.dev/v1`; Cursor, Cherry Studio, and custom scripts just work.
 
 **4. Honest, verifiable billing.** Every request returns full `usage`; backend has per-request records. The pricing page is *alive* — I watched deepseek-v4-flash move from ¥0.504 to ¥0.559 (+11%) within a week, which means pricing follows real upstream cost rather than being decorative marketing numbers.
 

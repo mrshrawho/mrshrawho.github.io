@@ -20,7 +20,7 @@ related:
 
 📌 This guide solves three problems for mainland developers — registering at every model vendor separately, official prices running high, and multi-model management chaos — by sharing Tokeness, an aggregator I've tested with genuinely transparent billing. It fits coding, content creation, and batch processing.
 
-🔗 Platform: [tokeness.io](https://tokeness.io)
+🔗 Platform: [tokeness.ai](https://tokeness.ai)
 
 ## The three pain points
 
@@ -48,7 +48,7 @@ Its differentiation is **transparency and low friction**:
 
 ### 3.1 Account registration
 
-1. Open [tokeness.io](https://tokeness.io)
+1. Open [tokeness.ai](https://tokeness.ai)
 2. Fill in registration: username, password, email, captcha
 3. Log in to the console
 
@@ -69,7 +69,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="sk-your-token",
-    base_url="https://n.tokeness.io/v1",
+    base_url="https://n.tokeness.dev/v1",
 )
 
 resp = client.chat.completions.create(
@@ -82,7 +82,7 @@ print(resp.choices[0].message.content)
 Command-line verification:
 
 ```bash
-curl https://n.tokeness.io/v1/chat/completions \
+curl https://n.tokeness.dev/v1/chat/completions \
   -H "Authorization: Bearer sk-your-token" \
   -H "Content-Type: application/json" \
   -d '{"model":"deepseek-v4-flash","messages":[{"role":"user","content":"hi"}]}'
@@ -90,7 +90,7 @@ curl https://n.tokeness.io/v1/chat/completions \
 
 ### 3.4 Tool configuration
 
-- **Cursor / Cherry Studio / Cline:** in settings, set the API address to `https://n.tokeness.io/v1`, paste the token, and use the exact model ID from the plaza (e.g. `glm-5.2`)
+- **Cursor / Cherry Studio / Cline:** in settings, set the API address to `https://n.tokeness.dev/v1`, paste the token, and use the exact model ID from the plaza (e.g. `glm-5.2`)
 - **Custom scripts:** use any OpenAI SDK; change `base_url`
 
 ## Price reference
@@ -129,4 +129,4 @@ The math: daily coding at 1M input + 0.3M output — about **¥2.9/day** on deep
 
 ---
 
-*Platform: [tokeness.io](https://tokeness.io) ｜ Prices verified 2026-08-01, subject to the live page.*
+*Platform: [tokeness.ai](https://tokeness.ai) ｜ Prices verified 2026-08-01, subject to the live page.*
