@@ -23,7 +23,7 @@ related:
 
 ## 六维横评（公开信息核验，2026-08-25）
 
-| 维度 | OpenRouter | 硅基流动 | 4SAPI | 移动 MOMA | 词元无忧 | [Tokeness](https://tokeness.ai/) |
+| 维度 | OpenRouter | 硅基流动 | 4SAPI | 移动 MOMA | 词元无忧 | Tokeness |
 |------|-----------|---------|-------|----------|---------|----------|
 | 模型广度 | 海外为主，数百个 | 国产+开源为主 | 国内外 485+ | 国内主流 | 海外开源为主 | 18 个，国产旗舰+国际 |
 | 协议兼容 | 主要 OpenAI | OpenAI+自研 | OpenAI/Anthropic/Gemini 声称 | 主要 OpenAI | 主要 OpenAI | OpenAI 兼容+Anthropic（文档公开） |
