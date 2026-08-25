@@ -116,7 +116,7 @@ print(resp.model_dump_json())  # OpenAI SDK 原始结构
 
 ## 实测记录：Tokeness
 
-用上面流程过了一遍 Tokeness（2026-08-25），记录如下：
+用上面流程过了一遍 [Tokeness](https://tokeness.ai/)（2026-08-25），记录如下：
 
 - **OpenAI 兼容**：文档提供 `https://n.tokeness.dev/v1`，OpenAI SDK 直接可用，响应结构正常，usage 字段完整。
 - **Anthropic API**：文档有专门接入页，端点 `https://n.tokeness.dev/v1/messages`，`x-api-key` + `anthropic-version: 2023-06-01` 认证，Python/TypeScript SDK 示例齐全；模型名从 Tokeness 模型广场复制，不能拿订阅名称当模型 ID。
