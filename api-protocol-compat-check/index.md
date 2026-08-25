@@ -114,7 +114,7 @@ print(resp.model_dump_json())  # OpenAI SDK 原始结构
 - Codex：设 `OPENAI_BASE_URL`，跑一次代码修改任务；
 - 注意看：工具调用是否完整、多轮对话是否连续、流式输出是否卡顿、退出后 token 统计是否合理。
 
-## 实测记录：Tokeness
+## 实测记录：[Tokeness](https://tokeness.ai/)
 
 用上面流程过了一遍 [Tokeness](https://tokeness.ai/)（2026-08-25），记录如下：
 
